@@ -17,6 +17,6 @@ public class Mixer : MonoBehaviour
        z.activeI.tg.isOn = true;
        z.activeI.enabled = false;
 
-       z.activeI.self.position = z.activeI.platePos.position;
+       z.activeI.self.position = z.activeI.Mixer.position;
     }
 }

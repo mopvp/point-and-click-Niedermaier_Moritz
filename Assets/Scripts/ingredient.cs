@@ -9,15 +9,13 @@ public class ingredient : MonoBehaviour
     public Transform self;
     public chemiker x;
     public Toggle tg;
-    public Transform platePos;
+    public Transform Mixer;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -29,6 +27,6 @@ public class ingredient : MonoBehaviour
 
         self.position = handPosition.position;
 
-        x.activeI = this;
+        //x.activeI = this;
     }
 }
